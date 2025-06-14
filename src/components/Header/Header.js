@@ -25,7 +25,7 @@ const Header = ({ toggle }) => {
             Contact
           </NavLink>
         </NavMenu>
-        <NavBtn>
+        {/* <NavBtn>
           <a
             className="btn PrimaryBtn"
             href="/AkhandSingh_Resume_5Years_Exp.pdf"
@@ -34,7 +34,7 @@ const Header = ({ toggle }) => {
           >
             Resume
           </a>
-        </NavBtn>
+        </NavBtn> */}
         <Bars onClick={toggle} />
       </Nav>
     </div>
